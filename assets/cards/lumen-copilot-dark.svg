@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="438" height="182" viewBox="0 0 438 182" fill="none">
+  <rect width="438" height="182" rx="11" fill="#0C1220"/>
+  <rect x="0.75" y="0.75" width="436.5" height="180.5" rx="10.25" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="0.75" y="16" width="3.5" height="44" rx="1.75" fill="#818CF8"/>
+
+  <text x="22" y="28" fill="#818CF8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700" letter-spacing="1.2">03 / GOVERNED AI</text>
+  <text x="416" y="28" text-anchor="end" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">↗</text>
+
+  <text x="22" y="51" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Governed Enterprise Assistant</text>
+  <text x="22" y="70" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600">lumen-copilot · citation-verified knowledge AI</text>
+
+  <text x="22" y="94" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">Enterprise document assistant with permission-</text>
+  <text x="22" y="111" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">aware search, verified source citations, tiered</text>
+  <text x="22" y="128" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">tool approvals &amp; isolated code execution.</text>
+
+  <rect x="22.0" y="144" width="84" height="21" rx="5" fill="#131F35"/><text x="64.0" y="158" text-anchor="middle" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">Permissions</text><rect x="113.0" y="144" width="122" height="21" rx="5" fill="#131F35"/><text x="174.0" y="158" text-anchor="middle" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">Verified citations</text><rect x="242.0" y="144" width="62" height="21" rx="5" fill="#131F35"/><text x="273.0" y="158" text-anchor="middle" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">FastAPI</text>
+</svg>

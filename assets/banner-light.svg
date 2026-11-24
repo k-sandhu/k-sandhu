@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="216" viewBox="0 0 900 216" fill="none">
+  <style>
+    .blink { animation: blink 1.15s steps(1, end) infinite; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; transform-origin: 838px 54px; }
+    .flow1 { stroke-dasharray: 10 18; animation: flow 2.4s linear infinite; }
+    .flow2 { stroke-dasharray: 6 22; animation: flow 3.4s linear infinite; }
+    .live-dot { animation: live 2s ease-in-out infinite; }
+    .bar1 { animation: eq1 2.2s ease-in-out infinite; }
+    .bar2 { animation: eq2 1.7s ease-in-out infinite; }
+    .bar3 { animation: eq3 2.6s ease-in-out infinite; }
+    .bar4 { animation: eq4 1.9s ease-in-out infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes pulse { 0%, 100% { opacity: 0.2; transform: scale(1); } 50% { opacity: 0.65; transform: scale(1.22); } }
+    @keyframes flow { from { stroke-dashoffset: 56; } to { stroke-dashoffset: 0; } }
+    @keyframes live { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    @keyframes eq1 { 0%, 100% { height: 10px; y: 162px; } 50% { height: 24px; y: 148px; } }
+    @keyframes eq2 { 0%, 100% { height: 22px; y: 150px; } 50% { height: 11px; y: 161px; } }
+    @keyframes eq3 { 0%, 100% { height: 15px; y: 157px; } 50% { height: 28px; y: 144px; } }
+    @keyframes eq4 { 0%, 100% { height: 26px; y: 146px; } 50% { height: 14px; y: 158px; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="55%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#0284C7" stop-opacity="0.9"/>
+      <stop offset="68%" stop-color="#4F46E5" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="curve" x1="530" y1="168" x2="845" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.95"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#CBD5E1" fill-opacity="0.75"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="216" rx="14" fill="url(#bg)"/>
+  <rect width="900" height="216" rx="14" fill="url(#dots)"/>
+  <rect x="0.75" y="0.75" width="898.5" height="214.5" rx="13.25" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Eyebrow -->
+  <circle cx="42" cy="40" r="4" fill="#059669" class="live-dot"/>
+  <text x="54" y="44" fill="#0369A1" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="600" letter-spacing="1.4">DATA · ANALYTICS · APPLIED AI</text>
+  <rect x="304" y="34" width="7" height="12" rx="1" fill="#0284C7" class="blink"/>
+
+  <!-- Headline -->
+  <text x="38" y="96" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26.5" font-weight="800" letter-spacing="-0.5">Where AI works — and where it breaks.</text>
+  <text x="38" y="128" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.2" font-weight="400">Hands-on experiments, safe enterprise sandboxes, and visual explainers.</text>
+
+  <!-- Pills -->
+  <rect x="38" y="152" width="132" height="27" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="104" y="169.5" text-anchor="middle" fill="#0369A1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600">35+ experiments</text>
+
+  <rect x="180" y="152" width="144" height="27" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="252" y="169.5" text-anchor="middle" fill="#4338CA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600">19 business apps</text>
+
+  <rect x="334" y="152" width="156" height="27" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="412" y="169.5" text-anchor="middle" fill="#047857" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="600">visual explainers</text>
+
+  <!-- Right-side animated signal / agent graph -->
+  <g>
+    <path d="M555 162 C618 160, 650 134, 710 128 C765 122, 800 108, 845 102" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="4 4" fill="none" opacity="0.65"/>
+    <path d="M555 156 C612 152, 636 102, 692 96 C744 90, 772 58, 838 54" stroke="url(#curve)" stroke-width="2.4" fill="none"/>
+    <path d="M555 156 C612 152, 636 102, 692 96 C744 90, 772 58, 838 54" stroke="#0284C7" stroke-width="2.6" fill="none" class="flow1" opacity="0.85"/>
+    <path d="M622 126 L692 96 L710 128 L774 72 L838 54" stroke="#4F46E5" stroke-width="1.2" fill="none" class="flow2" opacity="0.6"/>
+
+    <circle cx="555" cy="156" r="3.8" fill="#0284C7"/>
+    <circle cx="622" cy="126" r="3.5" fill="#0284C7" opacity="0.85"/>
+    <circle cx="692" cy="96" r="5" fill="#FFFFFF" stroke="#0284C7" stroke-width="2.2"/>
+    <circle cx="710" cy="128" r="3.2" fill="#94A3B8"/>
+    <circle cx="774" cy="72" r="4.5" fill="#FFFFFF" stroke="#4F46E5" stroke-width="2.2"/>
+    <circle cx="838" cy="54" r="12" stroke="#4F46E5" stroke-width="1.6" fill="none" class="pulse"/>
+    <circle cx="838" cy="54" r="5.2" fill="#4F46E5"/>
+
+    <rect x="816" y="162" width="4" height="10" rx="2" fill="#0284C7" opacity="0.7" class="bar1"/>
+    <rect x="824" y="150" width="4" height="22" rx="2" fill="#0284C7" opacity="0.85" class="bar2"/>
+    <rect x="832" y="157" width="4" height="15" rx="2" fill="#4F46E5" opacity="0.85" class="bar3"/>
+    <rect x="840" y="146" width="4" height="26" rx="2" fill="#059669" opacity="0.9" class="bar4"/>
+  </g>
+
+  <rect x="0" y="213" width="900" height="3" fill="url(#accent)"/>
+</svg>
